@@ -3,7 +3,7 @@ Simple EditText Validator to validate editTexts by categories(email, tel number,
 # Download
 
 Add it in your root settings.gradle at the end of repositories:
-```
+```gradle
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -13,12 +13,12 @@ dependencyResolutionManagement {
 }
 ```
 Add the dependency
-```
+```gradle
 implementation 'com.github.azizjonhamroyev:edittext-validator:1.0'
 ```
 # Usage
 Example:
-```
+```kotlin
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
@@ -66,7 +66,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-
 ```
 
 
